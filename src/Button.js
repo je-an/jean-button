@@ -34,6 +34,7 @@ define([ // jscs:ignore
                 isSelected: false
             }, TypeCheck.isDefined(options) ? options : {}));
             this.element.addEventListener("click", this._onButtonClick.bind(this));
+            this.id = this.options.id;
             this._setState();
         };
         /** */

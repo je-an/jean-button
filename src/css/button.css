@@ -4,6 +4,7 @@
   color: white;
   border-radius: 5px;
   text-align: center;
+  display: inline-block;
 }
 .jean-button .selected {
   color: lightgreen;
