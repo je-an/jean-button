@@ -1,0 +1,23 @@
+@background-color: #4A4949;
+@hover-color: lightgreen;
+@border-radius: 5px;
+.jean-button {
+    border: 1px solid white;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    .selected {
+        color: @hover-color;
+        border-color: @hover-color;
+    }
+    &:hover {
+        .selected;
+        cursor: pointer;
+    }
+}
+
+.jean-button-selected{
+        color: @hover-color;
+        border-color: @hover-color;
+}

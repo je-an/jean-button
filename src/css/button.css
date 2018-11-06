@@ -1,0 +1,20 @@
+.jean-button {
+  border: 1px solid white;
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.jean-button .selected {
+  color: lightgreen;
+  border-color: lightgreen;
+}
+.jean-button:hover {
+  color: lightgreen;
+  border-color: lightgreen;
+  cursor: pointer;
+}
+.jean-button-selected {
+  color: lightgreen;
+  border-color: lightgreen;
+}
