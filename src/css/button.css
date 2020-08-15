@@ -1,10 +1,11 @@
 .jean-button {
   border: 1px solid white;
-  padding: 3px;
+  padding: 5px;
   color: white;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
+  background: #4A4949;
 }
 .jean-button .selected {
   color: lightgreen;

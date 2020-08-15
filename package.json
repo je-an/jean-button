@@ -1,6 +1,6 @@
 {
   "name": "jean-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic button functionality",
   "main": "dist/jean-button.js",
   "scripts": {
