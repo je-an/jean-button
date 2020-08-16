@@ -11,7 +11,7 @@ AMD eco system. If there is no loader, Button is registered as a browser variabl
 var btn = new Button({
     id: "test-btn",
     name: "i am a button",
-    isHighlighted: false,
+    isSelected: false,
     onButtonClick: function (id) {
         console.log(id + " clicked");
     }
@@ -34,7 +34,7 @@ require(["path/to/Button"], function(Button){
 
 - **id**: `String` - `mandatory` - id of the button
 - **name**: `String` - `mandatory` - name of the button
-- **isHighlighted**: `Boolean` - `mandatory` - True if button stays highlighted after a click, false otherwise
+- **isSelected**: `Boolean` - `mandatory` - True if button stays highlighted after a click, false otherwise
 - **onButtonClick**: `Function` - `mandatory` - Gets called, if button is clicked
 
 
