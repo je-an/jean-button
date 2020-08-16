@@ -3,10 +3,14 @@ require(["Button", "css!bootstrap"], function (Button) {
     var button = new Button({
         id: "test-btn",
         name: "i am a button",
-        isSelected: true,
-        onButtonClick: function (id) {
-            console.log(id + " clicked");
+        isHighlightable: true,
+        isHighlighted: true,
+        onButtonClick: function (id, state) {
+            console.log(id + " clicked with state: " + state);
         }
     });
     document.body.appendChild(button.element);
 });
+
+
+

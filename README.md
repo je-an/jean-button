@@ -8,15 +8,16 @@ AMD eco system. If there is no loader, Button is registered as a browser variabl
 ## Code Example
 - Use it as browser variable
 ```js
-var btn = new Button({
+ var button = new Button({
     id: "test-btn",
     name: "i am a button",
-    isSelected: false,
-    onButtonClick: function (id) {
-        console.log(id + " clicked");
+    isHighlightable: true,
+    isHighlighted: true,
+    onButtonClick: function (id, state) {
+        console.log(id + " clicked with state: " + state);
     }
 });
-document.body.appendChild(btn.element);
+document.body.appendChild(button.element);
 ```
 - Use it with require.js
 ```js
@@ -34,8 +35,9 @@ require(["path/to/Button"], function(Button){
 
 - **id**: `String` - `mandatory` - id of the button
 - **name**: `String` - `mandatory` - name of the button
-- **isSelected**: `Boolean` - `mandatory` - True if button stays highlighted after a click, false otherwise
-- **onButtonClick**: `Function` - `mandatory` - Gets called, if button is clicked
+- **isHighlightable**: `Boolean` - `optional` - True if button stays highlighted after a click, false otherwise
+- **isHighlighted**: `Boolean` - `optional` - True if button stays highlighted after a click, false otherwise
+- **onButtonClick**: `Function` - `optional` - Gets called, if button is clicked
 
 
 ## Tests
