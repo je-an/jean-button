@@ -1,6 +1,6 @@
 {
   "name": "jean-button",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Basic button functionality",
   "main": "dist/jean-button.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "license": "MIT",
   "dependencies": {
     "jean-amd": "^1.0.3",
-    "jean-dom-element": "^1.2.2",
-    "jean-dom-util": "^1.2.3",
+    "jean-dom-element": "^1.3.0",
+    "jean-dom-util": "^1.3.2",
     "jean-failure": "^1.0.1",
     "jean-inheritance": "^1.0.4",
     "jean-merge": "^1.0.0",
-    "jean-type-check": "^1.5.1"
+    "jean-type-check": "^1.5.2"
   },
   "devDependencies": {
     "require-css": "^0.1.10"
